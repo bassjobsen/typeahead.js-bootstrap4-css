@@ -1,0 +1,18 @@
+{
+  "name": "typeahead.js-bootstrap4.scss",
+  "version": "1.0.0",
+  "main": [
+    "typeaheadjs.css",
+    "typeaheadjs.scss"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3",
+    "typeahead.js": "~0.10.0"
+  },
+  "ignore":[
+    ".gitignore",
+    ".gitmodules",
+    ".travis.yml",
+    "package.json"
+  ]
+}
