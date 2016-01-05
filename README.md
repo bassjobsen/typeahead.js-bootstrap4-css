@@ -42,4 +42,4 @@ Sass
  
 Example
 -------
-![ScreenShot](https://raw.github.com/bassjobsen/typeahead.js-bootstrap-css/master/screenshot.png)
+![ScreenShot](https://raw.github.com/bassjobsen/typeahead.js-bootstrap4-css/master/screenshot.png)
