@@ -1,4 +1,4 @@
-span.twitter-typeahead .tt-menu, span.twitter-typeahead .tt-dropdown-menu {
+.dropdown-menu, span.twitter-typeahead .tt-menu {
   position: absolute;
   top: 100%;
   left: 0;
@@ -29,18 +29,18 @@ span.twitter-typeahead .tt-suggestion {
   white-space: nowrap;
   background: none;
   border: 0; }
-   span.twitter-typeahead .tt-suggestion:focus, .dropdown-item:hover, span.twitter-typeahead .tt-suggestion:hover {
+span.twitter-typeahead .tt-suggestion:focus, .dropdown-item:hover, span.twitter-typeahead .tt-suggestion:hover {
     color: #2b2d2f;
     text-decoration: none;
     background-color: #f5f5f5; }
-  span.twitter-typeahead .active.tt-suggestion, span.twitter-typeahead .tt-suggestion.tt-cursor, .dropdown-item.active:focus, span.twitter-typeahead .active.tt-suggestion:focus, span.twitter-typeahead .tt-suggestion.tt-cursor:focus, .dropdown-item.active:hover, span.twitter-typeahead .active.tt-suggestion:hover, span.twitter-typeahead .tt-suggestion.tt-cursor:hover {
+span.twitter-typeahead .active.tt-suggestion, span.twitter-typeahead .tt-suggestion.tt-cursor, span.twitter-typeahead .active.tt-suggestion:focus, span.twitter-typeahead .tt-suggestion.tt-cursor:focus, span.twitter-typeahead .active.tt-suggestion:hover, span.twitter-typeahead .tt-suggestion.tt-cursor:hover {
     color: #fff;
     text-decoration: none;
     background-color: #0275d8;
     outline: 0; }
-  span.twitter-typeahead .disabled.tt-suggestion, .dropdown-item.disabled:focus, span.twitter-typeahead .disabled.tt-suggestion:focus, .dropdown-item.disabled:hover, span.twitter-typeahead .disabled.tt-suggestion:hover {
+span.twitter-typeahead .disabled.tt-suggestion, span.twitter-typeahead .disabled.tt-suggestion:focus, span.twitter-typeahead .disabled.tt-suggestion:hover {
     color: #818a91; }
-  span.twitter-typeahead .disabled.tt-suggestion:focus, .dropdown-item.disabled:hover, span.twitter-typeahead .disabled.tt-suggestion:hover {
+span.twitter-typeahead .disabled.tt-suggestion:focus, span.twitter-typeahead .disabled.tt-suggestion:hover {
     text-decoration: none;
     cursor: not-allowed;
     background-color: transparent;
@@ -50,9 +50,5 @@ span.twitter-typeahead {
   width: 100%; }
   .input-group span.twitter-typeahead {
     display: block !important; }
-    .input-group span.twitter-typeahead .tt-dropdown-menu {
-      top: 32px !important; }
-  .input-group.input-group-lg span.twitter-typeahead .tt-dropdown-menu {
-    top: 44px !important; }
-  .input-group.input-group-sm span.twitter-typeahead .tt-dropdown-menu {
-    top: 28px !important; }
+    .input-group span.twitter-typeahead .tt-menu {
+      top: 2.375rem !important; }
