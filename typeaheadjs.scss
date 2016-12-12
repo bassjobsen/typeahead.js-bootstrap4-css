@@ -17,7 +17,7 @@ span.twitter-typeahead {
   .input-group & {
     display: block !important;
     .tt-menu {
-      top:(2 * $input-padding-y + $font-size-base*$line-height + 2 * $input-btn-border-width/$font-size-root) !important;
+      top:(2 * $input-padding-y + $font-size-base*$line-height-base + 2 * $input-btn-border-width/$font-size-root) !important;
     }
   }
 }
