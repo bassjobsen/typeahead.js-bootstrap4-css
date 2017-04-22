@@ -1,3 +1,7 @@
+span.twitter-typeahead .tt-menu {
+  cursor: pointer;
+}
+
 .dropdown-menu, span.twitter-typeahead .tt-menu {
   position: absolute;
   top: 100%;
