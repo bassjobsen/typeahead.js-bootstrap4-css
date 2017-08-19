@@ -1,5 +1,4 @@
 span.twitter-typeahead {
-  width: 100%;
 
   .tt-menu {
     @extend .dropdown-menu;
@@ -10,14 +9,18 @@ span.twitter-typeahead {
   }
 
   .tt-suggestion.tt-cursor {
-     @extend .dropdown-item.active;
+    @extend .dropdown-item.active;
   }
 
-
   .input-group & {
-    display: block !important;
-    .tt-menu {
-      top:(2 * $input-padding-y + $font-size-base*$line-height-base + 2 * $input-btn-border-width/$font-size-root) !important;
+    display: flex !important;
+    align-items: center;
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+
+    .tt-menu, .tt-hint, .tt-input {
+      width: 100%;
     }
   }
 }
