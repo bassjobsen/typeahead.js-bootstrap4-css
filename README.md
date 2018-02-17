@@ -31,8 +31,10 @@ CSS
 ---
 Include the CSS file after Bootstrap's CSS in your HTML:
 
-	<link href="bootstrap.min.css" rel="stylesheet">
-	<link href="typeaheadjs.css" rel="stylesheet">
+```html
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="typeaheadjs.css" rel="stylesheet">
+```
 
 Sass
 ----
